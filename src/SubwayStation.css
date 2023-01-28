@@ -1,0 +1,40 @@
+.container {
+  margin: auto;
+  width: 80%;
+  padding-bottom: 2em;
+}
+
+.cardsWrapper {
+  margin: auto;
+  width: 80%;
+}
+
+.stationName {
+  text-align: center;
+  padding-bottom: 1em;
+}
+
+.buttonsWrapper {
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+  width: 60%;
+  padding-bottom: 2em;
+}
+
+.no-station,
+.no-routes {
+  margin: auto;
+  width: 95%;
+  text-align: center;
+}
+
+.spinnerWrapper {
+  padding-top: 2em;
+  display: flex;
+  justify-content: center;
+}
+
+.alertmsg {
+  margin-bottom: 0;
+}

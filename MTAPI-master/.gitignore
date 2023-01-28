@@ -1,0 +1,8 @@
+.venv
+*.sublime-*
+stops.txt
+transfers.txt
+*.log
+*.pyc
+.cache
+.DS_Store

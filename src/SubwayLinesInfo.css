@@ -1,0 +1,14 @@
+h1{
+    text-align: center;
+}
+
+#regularOrder{
+    display: flex;
+    flex-direction: column;
+}
+ 
+#reverseOrder{
+    display: flex;
+    flex-direction: column-reverse;
+}
+ 

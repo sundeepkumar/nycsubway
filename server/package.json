@@ -1,0 +1,26 @@
+{
+  "name": "back-end",
+  "version": "1.0.0",
+  "description": "The back-end of your project will live in this directory.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node app.js",
+    "heroku-postbuild": "npm install --only=dev --no-shrinkwrap && npm run build",
+    "test": "npx mocha tests/projectTest.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "chai": "^4.3.4",
+    "dotenv": "^10.0.0",
+    "expect.js": "^0.3.1",
+    "express": "^4.17.1",
+    "mocha": "^9.1.3",
+    "mongodb": "^4.2.1",
+    "mongoose": "^6.0.14"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
